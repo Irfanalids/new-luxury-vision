@@ -61,7 +61,15 @@
     color: var(--white);
     text-decoration: none;
     letter-spacing: 1px;
-  }
+
+    display:flex;
+    align-items:center;
+}
+.logo-icon{
+    height:120px;
+    width:auto;
+    margin-right:12px;
+}
 
   .nav-logo span { color: var(--gold); }
 
@@ -883,7 +891,10 @@
 
 <!-- NAV -->
 <nav id="navbar">
-  <a href="#" class="nav-logo">LUXURY <span>VISION</span></a>
+  <a href="#" class="nav-logo">
+    <img src="logo.png" alt="LV Logo">
+    LUXURY <span>VISION</span>
+</a>
   <ul class="nav-links">
     <li><a href="#properties">Properties</a></li>
     <li><a href="#about">About Us</a></li>
